@@ -1,0 +1,6 @@
+version: '3'
+services:
+  reniec:
+    image: mvalerius/reniecv1-dockerlab:3.0
+    ports:
+      - "8085:8085"
